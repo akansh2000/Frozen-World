@@ -1,0 +1,556 @@
+.App {
+  height: 115px;
+  background-color: rgb(8, 85, 85);
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.flex_container {
+  display: flex;
+  margin-right: 45px;
+  margin-top: 53px;
+  justify-content: space-evenly;
+}
+
+.nav_i {
+  color: rgb(255, 248, 248);
+  font-family: serif;
+  font-size: 22px;
+  padding: 13px 13px 13px 13px;
+}
+
+.home,
+.who,
+.contact,
+.gallery,
+.log {
+  background-color: rgb(47, 47, 56);
+  height: 47px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.home:hover,
+.contact:hover,
+.gallery:hover,
+.who:hover {
+  cursor: pointer;
+  background-color: rgb(102, 86, 101);
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 7px;
+  margin-top: 30px;
+}
+.logo:hover {
+  cursor: pointer;
+  width: 85px;
+  height: 85px;
+}
+
+.head {
+  font-family: -webkit-pictograph;
+  white-space: pre-line;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.575);
+  position: relative;
+  width: 450px;
+  height: 130px;
+  text-align: center;
+  border-radius: 35px;
+  margin-left: 545px;
+  margin-top: -200px;
+  font-size: 45px;
+}
+
+.lets {
+  margin-left: 10px;
+  margin-top: 55px;
+  color: white;
+  font-size: 25px;
+  font-family: initial;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sub-head {
+  margin-top: 80px;
+  margin-left: -148px;
+  color: white;
+}
+
+.prev,
+.next {
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(255, 253, 253);
+  font-size: 55px;
+  width: 45px;
+  padding: 10px;
+  height: 80px;
+  text-align: center;
+}
+
+.prev:hover,
+.next:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  position: sticky;
+  top: -13%;
+}
+
+.prev {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+}
+
+.next {
+  position: absolute;
+  top: 40%;
+  right: 0%;
+}
+
+.about {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 36px;
+  font-family: inherit, sans-serif;
+  background-color: rgba(182, 227, 241, 0.623);
+}
+
+.about_p,
+.activity_p {
+  text-align: left;
+  margin-left: 330px;
+  font-size: 18px;
+  box-sizing: border-box;
+  font-weight: 500;
+  background-color: rgba(173, 216, 230, 0.322);
+  width: 55%;
+  border-radius: 20px;
+}
+
+.container_2 {
+  position: relative;
+}
+.activity {
+  position: absolute;
+  background-color: rgba(173, 216, 230, 0.884);
+  margin-top: -935px;
+  min-width: 1519px;
+  min-height: 932px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  margin-top: -645px;
+}
+.machine {
+  background-color: rgb(167, 229, 231);
+  width: 1520px;
+  height: 1080px;
+  margin-top: -120px;
+}
+.tool {
+  height: 200px;
+  margin-top: -205px;
+  font-size: 80px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.603);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+.grid-item,
+.mac_grid1 {
+  padding: 18px;
+  font-size: 15px;
+  text-align: center;
+}
+.mac_grid1 {
+  margin-top: 40px;
+}
+.item {
+  border: 3px solid black;
+}
+
+.review {
+  background-image: url("https://designshack.net/wp-content/uploads/black-texture-background.jpg");
+  margin-top: -45px;
+  text-align: center;
+  background-color: rgb(191, 161, 219);
+  position: relative;
+  color: white;
+  height: 270px;
+}
+
+.rev {
+  text-align: left;
+  margin-left: 330px;
+  font-size: 22px;
+  font-weight: 500;
+  width: 55%;
+  border-radius: 20px;
+  font-style: italic;
+}
+
+.prev1 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+.next1 {
+  position: absolute;
+  top: 30%;
+  right: 0%;
+}
+
+.prev1,
+.next1 {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(255, 253, 253);
+  color: black;
+  font-size: 35px;
+  width: 35px;
+  padding: 10px;
+  height: 60px;
+  text-align: center;
+  outline: none;
+}
+
+.prev1:hover,
+.next1:hover {
+  cursor: pointer;
+}
+
+.client {
+  font-family: inherit;
+}
+.client_so {
+  text-align: center;
+  background-color: rgba(95, 120, 121, 0.705);
+}
+
+.client_flex {
+  display: grid;
+  margin-left: 260px;
+}
+
+.box {
+  grid-row: 1;
+}
+
+input[type="text"] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(93, 209, 209);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  height: 35px;
+}
+
+input[type="text"]:hover {
+  box-shadow: 0 8px 8px 0 rgba(61, 59, 59, 0.514),
+    0 8px 8px 0 rgba(71, 69, 69, 0.692);
+}
+
+input[type="submit"] {
+  font-size: 18px;
+  margin: 10px 0px 0px 0px;
+  width: 110px;
+  height: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  background-color: rgb(143, 202, 204);
+}
+
+label {
+  text-align: left;
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: inherit;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 8px 0 rgba(61, 59, 59, 0.514),
+    0 8px 8px 0 rgba(71, 69, 69, 0.692);
+  color: wheat;
+}
+
+form {
+  background-image: url("https://wallpapercave.com/wp/wp2815529.jpg");
+  height: 750px;
+  background-color: rgba(133, 107, 107, 0.281);
+  color: white;
+  font-style: italic;
+  padding: 10px 0px 0px 20px;
+  position: relative;
+  margin-top: -1px;
+}
+
+.contact2 {
+  color: white;
+  float: left;
+  margin-left: 1150px;
+  margin-top: -750px;
+  position: relative;
+}
+.insta,
+.linked,
+.mail,
+.phone {
+  display: flex;
+  padding: 15px 5px 5px 5px;
+}
+.phone {
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.our_client {
+  margin-top: -22px;
+  position: relative;
+  background-color: white;
+  height: 250px;
+}
+
+.office {
+  color: white;
+  position: relative;
+  margin-left: 535px;
+  margin-top: -760px;
+  float: left;
+}
+
+.map:hover {
+  width: 410px;
+  height: 410px;
+}
+
+.copyright {
+  background-color: rgba(36, 33, 33, 0.945);
+  color: rgb(218, 211, 211);
+  position: relative;
+  float: left;
+  margin-top: -74px;
+  min-width: 99.8%;
+  min-height: 70px;
+  border: 1px solid black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.warehouse {
+  margin-left: -320px;
+  display: flex;
+  margin: 38px 3px 3px 3px;
+  margin-top: 120px;
+  height: 500px;
+}
+
+.summary {
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 450;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  margin-top: 40px;
+}
+
+.summary,
+.warehouse,
+.summary2 {
+  background-color: rgba(222, 184, 135, 0.829);
+  width: 900px;
+}
+
+.tech {
+  margin-top: 40px;
+}
+
+@keyframes example {
+  0% {
+    background-color: rgba(222, 184, 135, 0.829);
+    left: 2000px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgba(222, 184, 135, 0.829);
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    background-color: rgba(222, 184, 135, 0.829);
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: rgba(222, 184, 135, 0.829);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.mac_grid2 {
+  margin-top: 55px;
+  margin-left: 480px;
+}
+
+.blast {
+  display: flex;
+  margin: 38px 3px 3px 3px;
+  height: 500px;
+  background-color: rgba(222, 184, 135, 0.829);
+  width: 900px;
+  margin-left: 600px;
+}
+
+.summary2 {
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 450;
+  position: relative;
+  animation-name: example2;
+  animation-duration: 6s;
+  margin-top: 40px;
+  margin-left: -1330px;
+}
+
+.freezer {
+  margin-left: -610px;
+}
+
+@keyframes example2 {
+  0% {
+    background-color: rgba(222, 184, 135, 0.829);
+    right: 2000px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgba(222, 184, 135, 0.829);
+    right: 0px;
+    top: 0px;
+  }
+  75% {
+    background-color: rgba(222, 184, 135, 0.829);
+    right: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: rgba(222, 184, 135, 0.829);
+    right: 0px;
+    top: 0px;
+  }
+}
+
+.ware_cont {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: auto auto;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.253);
+  margin: -50px 0px 0px 30px;
+  animation-name: example3;
+  animation-duration: 6s;
+}
+
+.img_grid {
+  margin: 15px 15px 15px 15px;
+  border: 2px solid black;
+}
+
+.ware_txt {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.452);
+  color: white;
+  width: 1520px;
+  height: 200px;
+  margin-left: 0px;
+  margin-top: -205px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  font-size: 70px;
+}
+
+@keyframes example3 {
+  0% {
+    left: 2000px;
+    top: 0px;
+  }
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
