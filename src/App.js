@@ -14,7 +14,7 @@ function App() {
                                                                 {/* Routing has been done here to different urls */}
       <BrowserRouter>                                          
       <Switch>
-      <Route exact path='/' component={Home} />                             
+      <Route exact path='/Frozen-World' component={Home} />                             
       <Route exact path='/contact' component={Contact} />
       <Route exact path='/machine' component={Machine} />
       <Route exact path='/warehouse' component={Warehouse} />
