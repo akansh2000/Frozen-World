@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Frozen-World/static/css/main.b95a8cf8.chunk.css",
-    "main.js": "/Frozen-World/static/js/main.4b969e9f.chunk.js",
-    "main.js.map": "/Frozen-World/static/js/main.4b969e9f.chunk.js.map",
+    "main.js": "/Frozen-World/static/js/main.264466b0.chunk.js",
+    "main.js.map": "/Frozen-World/static/js/main.264466b0.chunk.js.map",
     "runtime-main.js": "/Frozen-World/static/js/runtime-main.3ac96985.js",
     "runtime-main.js.map": "/Frozen-World/static/js/runtime-main.3ac96985.js.map",
     "static/js/2.22a7e25d.chunk.js": "/Frozen-World/static/js/2.22a7e25d.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.3ac96985.js",
     "static/js/2.22a7e25d.chunk.js",
     "static/css/main.b95a8cf8.chunk.css",
-    "static/js/main.4b969e9f.chunk.js"
+    "static/js/main.264466b0.chunk.js"
   ]
 }
