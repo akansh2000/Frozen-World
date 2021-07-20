@@ -12,7 +12,7 @@ class Clients extends Component{
             index: 0,
             arr: ['https://upload.wikimedia.org/wikipedia/commons/4/41/Amul_official_logo.svg',
                 'https://www.nicepng.com/png/detail/284-2843617_britannia-india-logo-design-png-transparent-images-britannia.png',
-                'http://assets.stickpng.com/thumbs/5a5a739c14d8c4188e0b08b6.png',
+                'http://assets.stickpng.com/thumbs/58a7a3115ad0fd0b7fdd33d7.png',
                 'https://www.clipartkey.com/mpngs/m/149-1495186_transparent-dabur-logo.png',
                 'https://pngimg.com/uploads/snickers/snickers_PNG13920.png',
                 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/08/attachment_46139698-e1502844606588.png?auto=format&q=60&fit=max&w=930',
