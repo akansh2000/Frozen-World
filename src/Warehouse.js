@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Nav from "./Nav";
 
 class  Warehouse extends Component{
     constructor(){
@@ -42,7 +43,8 @@ render(){
     return(
 
         <div>
-            <div>
+            <Nav />
+            <div className='ware_head'>
             <img className='ware_img' src='http://i2.wp.com/coldstarlogistics.com/blog/wp-content/uploads/2015/01/IMG_5848.jpg?zoom=1.25&fit=5472%2C3648' width='1520px' height='200px' />
             <p className='ware_txt' >Our Warehouse</p>
             </div>

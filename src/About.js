@@ -1,10 +1,13 @@
+import Nav from "./Nav";
+
 const About=()=>{
 
     return(
-        <div id="aboutSection">
+        <div className='main_about' id="aboutSection">
+            <Nav />
         <h4 className='about'>About Frozen World</h4>
                 <div className='about_p'>
-                    <p className='first_p'>Frozen World has engaged attempt in trading for last Five Generations. In 1987 frozen world started<br />First Cold Storage in Uttar Pradesh that was beginning of it and It was expanded in year of 1992.</p>
+                    <p className='first_p' >Frozen World has engaged attempt in trading for last Five Generations. In 1987 frozen world started<br />First Cold Storage in Uttar Pradesh that was beginning of it and It was expanded in year of 1992.</p>
                     <p>We design innovative storage systems to help owners and operators distribution centers realize their<br />best return on investment. Hammerhead delivers and installs your equipment on schedule and on<br />budget. Then, we assist in protecting your employees, building property through ongoing safety surveys,<br />pallet rack repairs and pallet rack protection. Our pallet rack installation, repair, maintenance team<br />can solve any issues that you might be facing with your warehouse storage and conveyor systems. </p>
                 </div>
                 <div className='container_2'>

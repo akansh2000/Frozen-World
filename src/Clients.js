@@ -1,5 +1,4 @@
 import { Component } from "react";
-import Contact from './Contact';
 
 class Clients extends Component{
     constructor(){
@@ -59,7 +58,6 @@ render(){
                 <img className='box' src={this.state.arr[this.state.index+2]} width='150px' height='150px' alt='Loading...' />
             </div>
         </div>
-           <Contact />
         </div>
     )
 }

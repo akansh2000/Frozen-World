@@ -1,14 +1,18 @@
 import machine from './images/machinery.jpg'
+import Nav from './Nav';
 const Machine=()=>{
 
     return(
         <div>
+            <Nav />
             <img src={machine} width='1520px' height='200px' /> 
             <p className='tool' >Our Tools</p>
+            
         <div className="machine">
+
             <div className='warehouse'>
             <img className='mac_grid1' src='https://www.nsspl.in/wp-content/uploads/2020/02/Controlled-Atmosphere-cold-Storage-project-Machine-Room-area.jpg' width='400px' height='400px' />
-            <div>
+            <div className='flex1'>
             <h1 className='tech'>Warehousing Technology</h1> 
             <ul  className='summary'> <li>Wicket Doors.</li>
                <li>Roof Top Solar Panels.</li>
@@ -20,6 +24,7 @@ const Machine=()=>{
                <li>Door Operations Monitoring Counter Sensors.</li></ul>
                 </div> 
             </div>
+
             <div className='blast'>
             
              <div>
@@ -33,6 +38,7 @@ const Machine=()=>{
                  </ul>
              </div>
              <img className='mac_grid2' src='https://5.imimg.com/data5/BH/SE/EO/SELLER-2468937/plastic-pyrolysis-machine-500x500.jpg' width='400px' height='400px' />
+           
             </div>
         </div>
         </div>
