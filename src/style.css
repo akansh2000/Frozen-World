@@ -12,8 +12,7 @@
 
 .flex_container {
   display: flex;
-  margin-right: 45px;
-  margin-top: 53px;
+  margin: 53px 45px 0px 0px;
   justify-content: space-evenly;
 }
 
@@ -47,8 +46,7 @@
 .logo {
   width: 80px;
   height: 80px;
-  margin-left: 7px;
-  margin-top: 30px;
+  margin: 30px 0px 0px 7px;
 }
 .logo:hover {
   cursor: pointer;
@@ -67,8 +65,7 @@
   height: 130px;
   text-align: center;
   border-radius: 35px;
-  margin-left: 545px;
-  margin-top: -200px;
+  margin: -200px 0px 0px 545px;
   font-size: 45px;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -87,8 +84,7 @@
 }
 
 .sub-head {
-  margin-top: 80px;
-  margin-left: -148px;
+  margin: 80px 0px 0px -148px;
   color: white;
   font-size: 15px;
 }
