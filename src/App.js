@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Machine from './Machine';
 import Warehouse from './Warehouse';
 import About from './About';
+import Login from './Login';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Route exact path='/machine' component={Machine} />
       <Route exact path='/warehouse' component={Warehouse} />
       <Route exact path='/about' component={About} />
+      <Route exact path='/login' component={Login} />
       </Switch>
       </BrowserRouter>
 

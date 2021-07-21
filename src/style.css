@@ -1,3 +1,6 @@
+/* body {
+  background-color: rgb(148, 201, 236);
+} */
 .App {
   height: 115px;
   background-color: rgb(8, 85, 85);
@@ -40,7 +43,8 @@
 .home:hover,
 .contact:hover,
 .gallery:hover,
-.who:hover {
+.who:hover,
+.log:hover {
   cursor: pointer;
   background-color: rgb(102, 86, 101);
 }
@@ -286,7 +290,7 @@
   grid-row: 1;
 }
 
-input[type="text"] {
+.con_form {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -300,12 +304,11 @@ input[type="text"] {
   height: 35px;
 }
 
-input[type="text"]:hover {
+.con_form:hover {
   box-shadow: 0 8px 8px 0 rgba(61, 59, 59, 0.514),
     0 8px 8px 0 rgba(71, 69, 69, 0.692);
 }
-
-input[type="submit"] {
+.query_sub {
   font-size: 18px;
   margin: 10px 0px 0px 0px;
   width: 110px;
@@ -326,14 +329,14 @@ label {
   color: white;
 }
 
-input[type="submit"]:hover {
+.query_sub:hover {
   cursor: pointer;
   box-shadow: 0 8px 8px 0 rgba(61, 59, 59, 0.514),
     0 8px 8px 0 rgba(71, 69, 69, 0.692);
   color: wheat;
 }
 
-form {
+.form {
   background-image: url("https://wallpapercave.com/wp/wp2815529.jpg");
   background-color: rgba(133, 107, 107, 0.281);
   color: white;
@@ -632,4 +635,92 @@ form {
   height: 204px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.login {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  margin-left: 500px;
+  margin-top: 160px;
+  width: 36%;
+  background-color: #85e094e7;
+  border-radius: 67%;
+  height: 530px;
+  border: 3px solid black;
+  flex-wrap: wrap;
+  box-shadow: 0 8px 8px 0 rgba(61, 59, 59, 0.514),
+    0 8px 8px 0 rgba(71, 69, 69, 0.692);
+}
+.log_field {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  height: 54px;
+  width: 100%;
+  border-radius: 40px;
+  font-size: larger;
+  font-family: auto;
+  border: 2px solid black;
+  flex-wrap: wrap;
+}
+.log_field:hover {
+  box-shadow: 0 8px 8px 0 rgba(61, 59, 59, 0.356),
+    0 8px 8px 0 rgba(71, 69, 69, 0.486);
+}
+
+.up {
+  margin-top: 27px;
+}
+
+.down {
+  margin-top: -180px;
+}
+
+.log_main {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  background-image: url("./images/background.jpg");
+}
+
+.enter {
+  margin-left: 215px;
+  margin-top: 45px;
+  font-size: 40px;
+}
+
+.power {
+  margin-left: 138px;
+  margin-top: -60px;
+}
+
+.log_submit {
+  width: 70%;
+  height: 40px;
+  font-size: larger;
+  font-family: auto;
+  margin-top: -90px;
+  margin-left: 80px;
+  border-radius: 30px;
+  background-color: bisque;
+}
+
+.log_submit:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 8px 0 rgba(61, 59, 59, 0.514),
+    0 8px 8px 0 rgba(71, 69, 69, 0.692);
+}
+
+.temp {
+  font-size: 14px;
+  font-weight: 640;
+  margin-left: 50px;
+  margin-top: -70px;
 }

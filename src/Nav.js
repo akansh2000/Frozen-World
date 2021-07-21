@@ -14,13 +14,13 @@ const Nav=()=>{
         </div>
         <div className='flex_container'>
             <Link to='/Frozen-World'>
-            <button className='nav_i home'>Home</button>
+            <button className='nav_i home button1'>Home</button>
             </Link>
             <Link to='/contact' >
-            <button className='nav_i contact'>Contact us</button>
+            <button className='nav_i contact button1'>Contact us</button>
             </Link>
             <div className='dropdown'>
-            <button className='nav_i gallery'>Gallery&#x25BE; </button>
+            <button className='nav_i gallery button1'>Gallery&#x25BE; </button>
             <div class="dropdown-content">
             <Link to='/machine'>
              <a href="#">Machinery</a>
@@ -31,9 +31,11 @@ const Nav=()=>{
              </div>
              </div>
              <Link to='/about'>
-             <button className='nav_i who'>Who we are</button>
+             <button className='nav_i who button1'>Who we are</button>
              </Link>
-            <button className='nav_i log'>Log in</button>
+             <Link to='/login'>
+            <button className='nav_i log button1'>Log in</button>
+            </Link>
         </div>
     </nav>
     )

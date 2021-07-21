@@ -14,18 +14,18 @@ const Contact=()=>{
   <form className="form">
   <h3 className='query'>Any queries? Let us serve you</h3>
     <label htmlFor="fname">*First Name:</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your first name.." required/>
+    <input type="text" id="fname" className='con_form' name="firstname" placeholder="Your first name.." required/>
 
     <label htmlFor="lname">*Last Name:</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required/>
+    <input type="text" id="lname" name="lastname" className='con_form' placeholder="Your last name.." required/>
 
     <label htmlFor='Email'>*Email-Id: </label>
-    <input type='text' name='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  placeholder='Email Id' title="Not in proper format" required />
+    <input type='text' name='Email' className='con_form' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  placeholder='Email Id' title="Not in proper format" required />
     
     <label htmlFor="contact">*Contact Number:</label>
-    <input type="text" id="contact" name="contact" placeholder="Your mobile number.." pattern="[1-9]{1}[0-9]{9}" required/>
+    <input type="text" id="contact" className='con_form' name="contact" placeholder="Your mobile number.." pattern="[1-9]{1}[0-9]{9}" required/>
 
-    <input type="submit" value="Submit" />
+    <input type="submit" value="Submit" className='query_sub'/>
   </form>
   </div>
 
