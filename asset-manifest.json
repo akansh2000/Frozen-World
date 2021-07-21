@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Frozen-World/static/css/main.b14bd6f7.chunk.css",
-    "main.js": "/Frozen-World/static/js/main.57ccd55c.chunk.js",
-    "main.js.map": "/Frozen-World/static/js/main.57ccd55c.chunk.js.map",
+    "main.js": "/Frozen-World/static/js/main.883a9b61.chunk.js",
+    "main.js.map": "/Frozen-World/static/js/main.883a9b61.chunk.js.map",
     "runtime-main.js": "/Frozen-World/static/js/runtime-main.3ac96985.js",
     "runtime-main.js.map": "/Frozen-World/static/js/runtime-main.3ac96985.js.map",
-    "static/js/2.0d60cac7.chunk.js": "/Frozen-World/static/js/2.0d60cac7.chunk.js",
-    "static/js/2.0d60cac7.chunk.js.map": "/Frozen-World/static/js/2.0d60cac7.chunk.js.map",
+    "static/js/2.f2bd5445.chunk.js": "/Frozen-World/static/js/2.f2bd5445.chunk.js",
+    "static/js/2.f2bd5445.chunk.js.map": "/Frozen-World/static/js/2.f2bd5445.chunk.js.map",
     "static/js/3.e759d7ce.chunk.js": "/Frozen-World/static/js/3.e759d7ce.chunk.js",
     "static/js/3.e759d7ce.chunk.js.map": "/Frozen-World/static/js/3.e759d7ce.chunk.js.map",
     "index.html": "/Frozen-World/index.html",
     "static/css/main.b14bd6f7.chunk.css.map": "/Frozen-World/static/css/main.b14bd6f7.chunk.css.map",
-    "static/js/2.0d60cac7.chunk.js.LICENSE.txt": "/Frozen-World/static/js/2.0d60cac7.chunk.js.LICENSE.txt",
+    "static/js/2.f2bd5445.chunk.js.LICENSE.txt": "/Frozen-World/static/js/2.f2bd5445.chunk.js.LICENSE.txt",
     "static/media/linked.3a130dea.png": "/Frozen-World/static/media/linked.3a130dea.png",
     "static/media/logo.d8ce161c.gif": "/Frozen-World/static/media/logo.d8ce161c.gif",
     "static/media/machinery.9fe03220.jpg": "/Frozen-World/static/media/machinery.9fe03220.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3ac96985.js",
-    "static/js/2.0d60cac7.chunk.js",
+    "static/js/2.f2bd5445.chunk.js",
     "static/css/main.b14bd6f7.chunk.css",
-    "static/js/main.57ccd55c.chunk.js"
+    "static/js/main.883a9b61.chunk.js"
   ]
 }
