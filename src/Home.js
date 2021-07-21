@@ -97,9 +97,9 @@ class Home extends Component {
                         <Link to='/Frozen-World'>
                         <button className='nav_i home'>Home</button>
                         </Link>
-                        <Link to='/contact' >
+                        <a href='#contactSection' >
                         <button className='nav_i contact'>Contact us</button>
-                        </Link>
+                        </a>
                         <div className='dropdown'>
                         <button className='nav_i gallery'>Gallery&#x25BE; </button>
                         <div class="dropdown-content">
@@ -111,9 +111,9 @@ class Home extends Component {
                          </Link>
                        </div>
                        </div>
-                       <Link to='/about' >
+                       <a href='#aboutSection'>
                         <button className='nav_i who'>Who we are</button>
-                        </Link>
+                        </a>
                         <button className='nav_i log'>Log in</button>
                     </div>
                 </nav>

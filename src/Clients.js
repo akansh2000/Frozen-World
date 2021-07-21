@@ -12,15 +12,14 @@ class Clients extends Component{
             index: 0,
             arr: ['https://upload.wikimedia.org/wikipedia/commons/4/41/Amul_official_logo.svg',
                 'https://www.nicepng.com/png/detail/284-2843617_britannia-india-logo-design-png-transparent-images-britannia.png',
-                'http://assets.stickpng.com/thumbs/58a7a3115ad0fd0b7fdd33d7.png',
+                'https://www.pinclipart.com/picdir/middle/536-5361134_transparent-background-nestle-logo-png-nestl-philippines-clipart.png',
                 'https://www.clipartkey.com/mpngs/m/149-1495186_transparent-dabur-logo.png',
                 'https://pngimg.com/uploads/snickers/snickers_PNG13920.png',
                 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/08/attachment_46139698-e1502844606588.png?auto=format&q=60&fit=max&w=930',
                 'https://content.jdmagicbox.com/comp/dholpur/t1/9999p5642.5642.190315075010.g4t1/catalogue/cream-bell-ice-cream-rajasthan-dholpur-ice-cream-parlours-8kistobl13.jpg',
                 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kwality_Walls_logo.svg/1280px-Kwality_Walls_logo.svg.png',
                 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Vadilal_Group_Logo.png'
-            ],
-            image: ''
+            ]
 
         }
 
@@ -37,13 +36,11 @@ class Clients extends Component{
     automatic(){
         if (this.state.index + 1 === 7) {
             this.setState({
-                index: 0,
-                image: this.state.arr[this.state.index]
+                index: 0
             })
         } else {
             this.setState({
-                index: this.state.index + 1,
-                image: this.state.arr[this.state.index]
+                index: this.state.index + 1
             })
         }
         setTimeout(this.automatic,1500)
@@ -57,9 +54,9 @@ render(){
         <div className='our_client'>
             <h1 className='client_so'>Our Clients so far</h1>
             <div className='client_flex'>
-                <img className='box' src={this.state.arr[this.state.index]} width='150px' height='150px' />
-                <img className='box' src={this.state.arr[this.state.index+1]} width='150px' height='150px' />
-                <img className='box' src={this.state.arr[this.state.index+2]} width='150px' height='150px' />
+                <img className='box' src={this.state.arr[this.state.index]} width='150px' height='150px' alt='Loading...' />
+                <img className='box' src={this.state.arr[this.state.index+1]} width='150px' height='150px' alt='Loading...' />
+                <img className='box' src={this.state.arr[this.state.index+2]} width='150px' height='150px' alt='Loading...' />
             </div>
         </div>
            <Contact />

@@ -1,7 +1,7 @@
 const About=()=>{
 
     return(
-        <div>
+        <div id="aboutSection">
         <h4 className='about'>About Frozen World</h4>
                 <div className='about_p'>
                     <p className='first_p'>Frozen World has engaged attempt in trading for last Five Generations. In 1987 frozen world started<br />First Cold Storage in Uttar Pradesh that was beginning of it and It was expanded in year of 1992.</p>

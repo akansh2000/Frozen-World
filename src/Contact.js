@@ -5,9 +5,10 @@ import map from './images/map.png'
 
 const Contact=()=>{
     return(
+        <div  id="contactSection">
         <div>
-            
-  <form>
+           
+  <form className="form">
   <h3>Any queries? Let us serve you</h3>
     <label htmlFor="fname">*First Name:</label>
     <input type="text" id="fname" name="firstname" placeholder="Your first name.." required/>
@@ -52,6 +53,7 @@ const Contact=()=>{
   <div className='copyright'>
       <p>Cold Storage Resources &#x2502; Servicing &#x2502; Privacy Policy<br/>Copyright © 2020 Frozen World Cold Storage Ltd, All Rights Reserved</p>
   </div>
+</div>
 </div>
     )
 }
