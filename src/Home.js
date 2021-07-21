@@ -87,16 +87,16 @@ class Home extends Component {
             <div>
                 <nav className="App">
                     <div className='flex'>
-                        <Link to='/Frozen-World'>
+                        <a href='#'>
                         <img src={logo} className='logo' width='110px' height='100px' />
-                        </Link>
+                        </a>
                         <h3 className='lets'>Frozen World</h3>
                         <h5 className='sub-head'>Cold Storage</h5>
                     </div>
                     <div className='flex_container'>
-                        <Link to='/Frozen-World'>
+                        <a href='#'>
                         <button className='nav_i home'>Home</button>
-                        </Link>
+                        </a>
                         <a href='#contactSection' >
                         <button className='nav_i contact'>Contact us</button>
                         </a>
