@@ -4,7 +4,6 @@ const Login=()=>{
 
     return(
 
-        <div >
             <div className='log_main'> 
   <form className='login'>
       <h2 className='enter'>Log in</h2>
@@ -15,7 +14,6 @@ const Login=()=>{
       <p className='temp'>Copyright © 2020 Frozen World Cold Storage Ltd, All Rights Reserved</p>
   </form>
   </div>
-</div>
     )
 }
 

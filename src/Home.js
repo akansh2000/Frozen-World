@@ -87,7 +87,7 @@ class Home extends Component {
                 <Nav />
                 <div className='container'>
                     
-                    <img className="mySlides" src={this.state.image} width='1519px' height='500px' className='slide' />
+                    <img className="mySlides" src={this.state.image} width='100%' height='500px' className='slide' />
                     <div className='head'><div>{this.state.Text}</div></div>
                     <button className='prev' onClick={this.onClickBack} >&#8249;</button>
                     <button className='next' onClick={this.onClickForward} >&#8250;</button>
